@@ -1,0 +1,27 @@
+Learn Git 
+0, git config 
+1 git log == git log is commit information and other source
+2, git checkout( press id) == git checkout is commit chenge, this mean project come back
+3, git diff <press commit id> == git diff is See you since the last chenge to curren time 
+4, git dirr <press commit is > this file  (press second commit id) == See this file changed diffarence
+5, git dirr --staged == See Stage file changed
+6, git show < press id> == git show is See what i have changed
+7, git reset HEAD <file name>
+----------------if you have not email and password then just type code------------
+1, ssh-keygen -t rsa -b 4096 -c <" Press your Email ">
+	:- Enter your any file name
+	:- Create your password and press
+	:- Enter
+2, eval $(ssh-agent -s)
+	:- show your Agent pid <id>
+3 ssh-add ~/.ssh/id_rsa
+	:- Enter your password
+4, clip < ~/.ssh/id_rsa.pub == Copy you key
+----------------------------------Create branch-----------
+1, git branck <branch name>
+2, git branch == show all branch
+3, git checkout < branch name > == switched to branch
+	:- this work shourtcut command
+4, git checkout -b <branch name >
+---------------marge branch ----------
+1, git marge < branch name > 
