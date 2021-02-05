@@ -20,7 +20,7 @@ Learn Git
 ----------------------------------Create branch-----------
 1, git branck <branch name>
 2, git branch == show all branch
-3, git checkout < branch name > == switched to branch
+3, git checkout < branch name > == switched to branch 
 	:- this work shourtcut command
 4, git checkout -b <branch name >
 ---------------marge branch ----------
