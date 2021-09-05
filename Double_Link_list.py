@@ -64,8 +64,15 @@ class DoubleLinkList:
 
             if insert.next is not None:
                 insert.next.prev = insert
+    #TODO: just test after remove function
 
-            
+    def update(self,changeVal, item):
+        heaa = self.head
+        while heaa is not None:
+            if heaa.data == changeVal:
+                heaa.data = item
+                return
+            heaa = heaa.next
 
         
             
@@ -98,4 +105,5 @@ print(my_list)
 print(my_list)
 
 my_list.insert_after(1, 5)
+my_list.update(3, 8389)
 print(my_list)
