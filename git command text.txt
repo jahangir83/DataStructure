@@ -24,4 +24,4 @@ Learn Git
 	:- this work shourtcut command
 4, git checkout -b <branch name >
 ---------------marge branch ----------
-1, git marge < branch name >  
+1, git merge < branch name >  
